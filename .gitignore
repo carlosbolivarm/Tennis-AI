@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Environment files
+.env
+
+# Mac files
+.DS_Store
+
+# Large raw data files
+data/raw/
+
+# Optional: model files if you do not want to upload them
+# *.pkl
