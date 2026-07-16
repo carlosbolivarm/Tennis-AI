@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://tennis-ai-68dc.onrender.com";
 
 export async function getPlayers() {
   const response = await fetch(`${BASE_URL}/players`);
